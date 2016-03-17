@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED44689F1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED44689B1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.m */; };
+		ED4468A01C99452200CA6932 /* JKKeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ED44689D1C99452200CA6932 /* JKKeyboardObserver.m */; };
+		ED4468A41C99465100CA6932 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4468A31C99465100CA6932 /* MessageView.m */; };
 		EDCBAE481C9943BD00F24BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCBAE471C9943BD00F24BA7 /* main.m */; };
 		EDCBAE4B1C9943BD00F24BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCBAE4A1C9943BD00F24BA7 /* AppDelegate.m */; };
-		EDCBAE4E1C9943BD00F24BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCBAE4D1C9943BD00F24BA7 /* ViewController.m */; };
 		EDCBAE511C9943BD00F24BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCBAE4F1C9943BD00F24BA7 /* Main.storyboard */; };
 		EDCBAE531C9943BD00F24BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCBAE521C9943BD00F24BA7 /* Assets.xcassets */; };
 		EDCBAE561C9943BD00F24BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCBAE541C9943BD00F24BA7 /* LaunchScreen.storyboard */; };
+		EDCBAE5F1C9943F400F24BA7 /* GGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCBAE5E1C9943F400F24BA7 /* GGTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED44689A1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JKKeyboardObserver.h"; sourceTree = "<group>"; };
+		ED44689B1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JKKeyboardObserver.m"; sourceTree = "<group>"; };
+		ED44689C1C99452200CA6932 /* JKKeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKKeyboardObserver.h; sourceTree = "<group>"; };
+		ED44689D1C99452200CA6932 /* JKKeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKKeyboardObserver.m; sourceTree = "<group>"; };
+		ED44689E1C99452200CA6932 /* UIKeyboardInputMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKeyboardInputMode.h; sourceTree = "<group>"; };
+		ED4468A21C99465100CA6932 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageView.h; path = MessageView/MessageView.h; sourceTree = "<group>"; };
+		ED4468A31C99465100CA6932 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageView.m; path = MessageView/MessageView.m; sourceTree = "<group>"; };
 		EDCBAE431C9943BD00F24BA7 /* SendMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCBAE471C9943BD00F24BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDCBAE491C9943BD00F24BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDCBAE4A1C9943BD00F24BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDCBAE4C1C9943BD00F24BA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDCBAE4D1C9943BD00F24BA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDCBAE501C9943BD00F24BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDCBAE521C9943BD00F24BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCBAE551C9943BD00F24BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCBAE571C9943BD00F24BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCBAE5D1C9943F400F24BA7 /* GGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTableViewController.h; sourceTree = "<group>"; };
+		EDCBAE5E1C9943F400F24BA7 /* GGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED4468991C99452200CA6932 /* JKKeyboardObserver */ = {
+			isa = PBXGroup;
+			children = (
+				ED44689A1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.h */,
+				ED44689B1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.m */,
+				ED44689C1C99452200CA6932 /* JKKeyboardObserver.h */,
+				ED44689D1C99452200CA6932 /* JKKeyboardObserver.m */,
+				ED44689E1C99452200CA6932 /* UIKeyboardInputMode.h */,
+			);
+			path = JKKeyboardObserver;
+			sourceTree = "<group>";
+		};
+		ED4468A11C99463000CA6932 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				ED4468A21C99465100CA6932 /* MessageView.h */,
+				ED4468A31C99465100CA6932 /* MessageView.m */,
+			);
+			name = MessageView;
+			sourceTree = "<group>";
+		};
 		EDCBAE3A1C9943BD00F24BA7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +89,12 @@
 		EDCBAE451C9943BD00F24BA7 /* SendMessage */ = {
 			isa = PBXGroup;
 			children = (
+				ED4468A11C99463000CA6932 /* MessageView */,
+				ED4468991C99452200CA6932 /* JKKeyboardObserver */,
 				EDCBAE491C9943BD00F24BA7 /* AppDelegate.h */,
 				EDCBAE4A1C9943BD00F24BA7 /* AppDelegate.m */,
-				EDCBAE4C1C9943BD00F24BA7 /* ViewController.h */,
-				EDCBAE4D1C9943BD00F24BA7 /* ViewController.m */,
+				EDCBAE5D1C9943F400F24BA7 /* GGTableViewController.h */,
+				EDCBAE5E1C9943F400F24BA7 /* GGTableViewController.m */,
 				EDCBAE4F1C9943BD00F24BA7 /* Main.storyboard */,
 				EDCBAE521C9943BD00F24BA7 /* Assets.xcassets */,
 				EDCBAE541C9943BD00F24BA7 /* LaunchScreen.storyboard */,
@@ -149,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDCBAE4E1C9943BD00F24BA7 /* ViewController.m in Sources */,
+				ED4468A41C99465100CA6932 /* MessageView.m in Sources */,
+				ED4468A01C99452200CA6932 /* JKKeyboardObserver.m in Sources */,
+				ED44689F1C99452200CA6932 /* AppDelegate+JKKeyboardObserver.m in Sources */,
+				EDCBAE5F1C9943F400F24BA7 /* GGTableViewController.m in Sources */,
 				EDCBAE4B1C9943BD00F24BA7 /* AppDelegate.m in Sources */,
 				EDCBAE481C9943BD00F24BA7 /* main.m in Sources */,
 			);
@@ -300,6 +336,7 @@
 				EDCBAE5C1C9943BD00F24BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
